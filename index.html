@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="row" id="header">
+        <div class="col-4">
+            <h1>Precentacion</h1>
+        </div>
+
+        <div class="col">
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/_mate__o/"><img src="ig.jpg" alt="instagram"
+                                class="img-fluid"></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox"><img src="Gmail.png" alt="Gmail"
+                                class="img-fluid"></a></li>
+                    <li><a href="https://github.com/mat286/Back-End.git"><img src="github.png" alt=""
+                                class="img-fluid"></a></li>
+                    <li><button>Login</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="inicio"><img src="bienvenido.gif" alt=""></div>
+
+    <div class="todo" id="ini">
+
+
+        <div class="row fotoss">
+            <div class="col-3 center">
+                <div class="fotosConteiner">
+                    <img src="IMG-20220215-WA0096.jpg" alt="mi foto" class="foto">
+                    <img src="images.png" class="fotoLapizP" alt="cambiar" onclick="pp()">
+                </div>
+            </div>
+
+            <div class="col-9 center" id="IMG">
+                <div class="imageness">
+                    <img name="imagen">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 barra">
+                <ul>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta1')">Acerca de mi</a>
+                    </li>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta2')">Educacion</a>
+                    </li>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta5')">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta3')">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta4')">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#ini" onclick="botonCuentaTodo('cuenta6')">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-9">
+                <div>
+
+                    <div id="cuenta1">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Acerca de mi</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 deMi">
+
+                                <div class="row">
+
+                                    <div class="col-8">
+                                        <P>Mi nombre es Mateo Rivera, soy Técnico en Diseño de Interior y estudiante de
+                                            Ingeniería
+                                            electrónica en la
+                                            Universidad Tecnológica Nacional (UTN). Me caracterizo por ser creativo y
+                                            resolutivo.
+                                            Soy
+                                            muy sociable,
+                                            tengo mucha facilidad para incorporar nuevos conocimientos y ejecutarlos.
+                                        </P>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <h4>Haciendo click aquí se mostrara el CV</h4>
+                                        <a
+                                            href="https://www.canva.com/design/DAEUkK7gW1Y/kUAPFA5k9EADCkHgpMkWeg/view?utm_content=DAEUkK7gW1Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img
+                                                src="Black Professional Resume (3).jpg" alt=""></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="cuenta2">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Educacion</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+                        <div class="padding" style="border-top: 5px solid rgb(133, 133, 133);">
+
+                            <div class="row rectangular">
+                                <div class="col-3">
+                                    <h6>Ingenieria electronica</h6>
+                                    <a href="https://www.utn.edu.ar/es/"><img src="utn.jpg" alt="utn"></a>
+                                </div>
+
+                                <div class="col">
+                                    <p>Actualmente estudiando primer año de la carrera</p>
+                                </div>
+                                <div class="col-1">
+                                    <img src="images.png" class="fotoLapiz" alt="cambiar" onclick="pp()">
+                                    <div onclick="pp()" class="fotoLapiz">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                                            src="https://cdn.lordicon.com/jmkrnisz.json" trigger="hover"
+                                            colors="primary:#b4b4b4" style="width:50px;height:50px"></lord-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row rectangular">
+                                <div class="col-3">
+                                    <h6>Tecnico en diseño de interior</h6>
+                                    <a href="https://www.escuelatecnicafader.com.ar/"><img src="descarga.jpg"
+                                            alt="utn"></a>
+                                </div>
+
+                                <div class="col">
+                                    <p>Titulo obtenido en la escuela Tecnica Nº6 Fernando Fader</p>
+                                </div>
+                                <div class="col-1">
+                                    <img src="images.png" class="fotoLapiz" alt="cambiar" onclick="pp()">
+                                    <div onclick="pp()" class="fotoLapiz">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                                            src="https://cdn.lordicon.com/jmkrnisz.json" trigger="hover"
+                                            colors="primary:#b4b4b4" style="width:50px;height:50px"></lord-icon>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="cuenta5">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Cursos</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+                        <div class="padding" style="border-top: 5px solid rgb(133, 133, 133);">
+
+                            <div class="row rectangular">
+                                <div class="col-3">
+                                    <h6>Robotica e imprecion 3D</h6>
+                                    <a href="https://aprendeprogramando.bue.edu.ar/"><img src="aprende programando.png"
+                                            alt="utn"></a>
+                                </div>
+
+                                <div class="col">
+                                    <p>Titulo obtenido en aprende programando virrtual 3.0.</p>
+                                </div>
+                                <div class="col-1">
+                                    <img src="images.png" class="fotoLapiz" alt="cambiar" onclick="pp()">
+                                    <div onclick="pp()" class="fotoLapiz">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                                            src="https://cdn.lordicon.com/jmkrnisz.json" trigger="hover"
+                                            colors="primary:#b4b4b4" style="width:50px;height:50px"></lord-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row rectangular">
+                                <div class="col-3">
+                                    <h6>#SéProgramar</h6>
+                                    <img src="seProgramar.png" alt="utn"></a>
+                                </div>
+
+                                <div class="col">
+                                    <p>Titulo obtenido en Argentina Programa 4.0</p>
+                                </div>
+                                <div class="col-1">
+                                    <img src="images.png" class="fotoLapiz" alt="cambiar" onclick="pp()">
+                                    <div onclick="pp()" class="fotoLapiz">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                                            src="https://cdn.lordicon.com/jmkrnisz.json" trigger="hover"
+                                            colors="primary:#b4b4b4" style="width:50px;height:50px"></lord-icon>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row rectangular">
+                                <div class="col-3">
+                                    <h6>Curso introductorio de python</h6>
+                                    <img src="itba_logo.jpg" alt="utn">
+                                </div>
+
+                                <div class="col">
+                                    <p>Titulo obtenido por el IEEE - ITBA </p>
+                                </div>
+                                <div class="col-1">
+                                    <img src="images.png" class="fotoLapiz" alt="cambiar" onclick="pp()">
+                                    <div onclick="pp()" class="fotoLapiz">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                                            src="https://cdn.lordicon.com/jmkrnisz.json" trigger="hover"
+                                            colors="primary:#b4b4b4" style="width:50px;height:50px"></lord-icon>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="cuenta3">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Experiencia</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+
+                        <div class="edu">
+
+                        </div>
+                    </div>
+
+                    <div id="cuenta4">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Proyectos</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+
+                        <div class="edu">
+
+                            <div class="eduDentro">
+                                <h3>Tecnico en diseño de interior </h3>
+                                <div class="edu2">
+                                    <a href="https://www.escuelatecnicafader.com.ar/"><img src="descarga.jpg"
+                                            alt="utn"></a>
+                                    <p>Titulo obtenido en la escuela Tecnica Nº6 Fernando Fader</p>
+                                </div>
+                            </div>
+
+
+                            <div class="eduDentro">
+                                <h3>Curso de Robotica e imprecion 3D</h3>
+                                <div class="edu2">
+                                    <a href="https://aprendeprogramando.bue.edu.ar/"><img src="aprende programando.png"
+                                            alt="utn"></a>
+                                    <p>Titulo obtenido en aprende programando virrtual 3.0.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="eduDentro">
+                                <h3>Estudiante de ingenieria electronica</h3>
+                                <div class="edu2">
+                                    <a href="https://www.utn.edu.ar/es/"><img src="utn.jpg" alt="utn"></a>
+                                    <p>Actualmente estudiando primer año de la carrera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cuenta6">
+                        <div class="row">
+                            <div class="col-11">
+                                <h2>Contacto</h2>
+                            </div>
+                            <div class="col-1">
+                                <h1 class="fotoLapizGeneral" onclick="ppSumar()">+</h1>
+                            </div>
+
+                        </div>
+
+                        <div class="padding" style="border-top: 5px solid rgb(133, 133, 133);">
+
+                            <div class="row rectangular">
+                                <div class="col-9">
+
+                                    <div class="row rectangular">
+                                        <div class="col-6">
+                                            <h5>Nombre</h5>
+                                            <input type="text">
+                                            <h5 class="rectangular">Email</h5>
+                                            <input type="email">
+
+                                        </div>
+
+                                        <div class="col-6">
+                                            <h5>Apellido</h5>
+                                            <input type="text">
+                                            <h5 class="rectangular">Motivo</h5>
+                                            <input type="text">
+                                        </div>
+
+
+                                        <div class="rectangular">
+                                            <h5>Mensaje</h5>
+
+                                            <textarea name="message"></textarea>
+                                            <button class="buttonC">Enviar</button>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-3">
+                                    <p>Titulo obtenido en aprende programando virrtual 3.0.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>La elavoracion del proyecto fue llevada acabo por facundo mateo rivera</p>
+        <p>para cualquier tipo de consulta escribime a mi gmail: riveramateo10432@gmail.com</p>
+        <a href="index2.html">la otra paginaaaaa</a>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
