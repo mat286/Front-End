@@ -1,5 +1,5 @@
 
-let imagenesDisplay = ["imagen1.jpg", "imagen2.jpg", "utn.jpg"];
+let imagenesDisplay = ["fotos/imagen1.jpg", "fotos/imagen2.jpg", "fotos/utn.jpg","fotos/shutterstock_518160529-1250x625.jpg"];
 let element = document.getElementById("IMG");
 let incremental = 0;
 
@@ -9,10 +9,10 @@ let incremental = 0;
 function dusplayImagenes() {
 
     document.imagen.src = imagenesDisplay[incremental];
-    if (incremental < 2) {
+    if (incremental < 3) {
         incremental += 1;
 
-    }else {
+    } else {
         incremental = 0;
     }
 }
@@ -26,6 +26,7 @@ function botonCuentaTodo(pepe) {
     document.getElementById("cuenta4").style.display = "none";
     document.getElementById("cuenta5").style.display = "none";
     document.getElementById("cuenta6").style.display = "none";
+    document.getElementById("cuenta7").style.display = "none";
 
     document.getElementById(pepe).style.display = "block";
 }
@@ -37,27 +38,6 @@ function pp() {
 function ppSumar() {
     alert("se va a sumar algo mas");
 }
-
-function butonAri1() {
-
-    window.scrollTo( 0, 400 );
-
-}
-
-function butonAri() {
-    window.scrollTo({
-        top: 100,
-        behavior: "smooth"
-    });
-}
-
-
-function inicio() {
-    
-}
-
-
-
 
 function inicio() {
     document.getElementById("inicio").style.display = "none";
